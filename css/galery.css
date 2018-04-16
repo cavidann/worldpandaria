@@ -1,0 +1,26 @@
+    .galery .col-md-4{
+        padding: 10px!important;
+    }
+    .box{
+        float: left;
+        overflow:hidden!important;
+        padding: 10px;
+    }
+
+    .box img{
+        width:100%;
+        height: max-content;
+    }
+    .box:nth-child(7) img, 
+    .box:nth-child(8) img,
+    .box:nth-child(9) img{
+        height: auto;
+    }
+    .my-md-3{
+        float: left;
+        width: 25%;
+    }
+    .my-md-4{
+        float: left;
+        width: 37.5%;
+    }
