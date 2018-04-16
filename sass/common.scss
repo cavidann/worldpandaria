@@ -1286,6 +1286,9 @@ a:hover{
             margin-bottom: 40px;
         }
     }
+    .match table td, .match table th{
+        padding: 20px 4px;
+    }
 }
 @media only screen and (max-width: 483px) {
     .menu{
@@ -1295,5 +1298,21 @@ a:hover{
     }
     .welcome{
         background-size: cover;
+    }
+}
+@media only screen and (max-width:345px){
+    .match table td, .match table th{
+        padding: 20px 0px;
+    }
+    .match{
+        tr{
+            th,td{
+                &:nth-child(2){
+                    max-width: 50px;
+                    overflow: hidden;
+                    text-overflow: ellipsis; 
+                }
+            }
+        }
     }
 }
